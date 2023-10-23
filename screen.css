@@ -1,1 +1,5 @@
 /* Add screen styles below */
+img {
+    height: 250px;
+    width: 500px
+}
