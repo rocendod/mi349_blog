@@ -1,5 +1,29 @@
 /* Add screen styles below */
+p {
+    font-size: 18px;
+}
+
+h2 {
+    margin-top: 5px;
+}
+
+main{
+    margin:0 auto;
+    width: 800px;
+}
+
 img {
-    height: 275px;
-    width: 500px
+    height: 300px;
+    width: 525px
+}
+div {
+    flex-grow: 1;
+    flex-basis: 0;
+    background: #d6d6d6;
+    border-radius: 20px;
+    margin-top: 25px;
+    padding: 25px;
+    margin-right: 375px;
+
+    
 }
