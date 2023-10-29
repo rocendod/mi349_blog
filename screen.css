@@ -16,6 +16,7 @@ img {
     height: 300px;
     width: 525px
 }
+
 div {
     flex-grow: 1;
     flex-basis: 0;
@@ -23,9 +24,7 @@ div {
     border-radius: 20px;
     margin-top: 25px;
     padding: 25px;
-    margin-right: 375px;
-
-    
+    margin-right: 500px;
 }
 
 label {
@@ -51,5 +50,10 @@ box-shadow: 1px 1px 1px #999;
 label {
 display: block;
 margin-bottom: 10px;
+}
+
+table,
+td {
+  border: 1px solid #333;
 }
   
