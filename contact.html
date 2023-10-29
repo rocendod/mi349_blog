@@ -4,11 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Page</title>
+    <title>Contact Page</title>
     <link rel="stylesheet" href="screen.css">
+    <nav>
+      <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </head>
   <body>
-    <h1>Heading</h1>
+    <h1>Contact Me</h1>
+    <section>
+      <div>
+      <form>
+
+        <label>Name:
+          <input input type="text">
+        </label>
+
+        <label>Email address:
+          <input input type="text">
+        </label>
+        
+        <label for="contact-choices">Reason for contact:</label>
+        <input list="reasons-for-contact" id="contact-choices" name="contact-choices" />
+
+        <datalist id="reasons-for-contact">
+          <option value="Saying Hi"></option>
+          <option value="Looking for a contractor"></option>
+          <option value="Intrested in an interview"></option>
+        </datalist>
+
+        <label for="comment">Comment:</label>
+
+        <textarea id="comment" name="comment" rows="5" cols="33">Hello, </textarea>
+
+        <button>
+          Submit
+        </button>
+      </form>
+    </div>
+    </section>
     <script src="index.js"></script>
   </body>
 </html>
