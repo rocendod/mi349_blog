@@ -56,8 +56,8 @@ h3 {
 }
 
 img {
-    width: 65%;
     height: 485px;
+    width: 65%;
 
 }
 
@@ -79,6 +79,7 @@ label {
 
 label,
 textarea {
+  font-family: Helvetica Neue,Helvetica,Arial,system-ui,-apple-system,sans-serif;
   font-size: 16px;
   letter-spacing: 1px;
 }
