@@ -1,42 +1,69 @@
 /* Add screen styles below */
 p {
     font-size: 18px;
+    text-indent: 30px;
+}
+
+.intro {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 30%;
+  text-indent: 30px;
+}
+
+nav {
+  font-size: 1.5rem;
+  padding-top: 0px;
+  margin: 0 auto;
+  margin-inline: #ababab;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  font-size: 22px;
+  width: 80px;
+}
+
+h1 {
+  margin-bottom: 0%;
 }
 
 h2 {
-    margin-top: 5px;
-}
-
-main{
-    margin:0 auto;
-    width: 800px;
+    margin-top: 10px;
 }
 
 img {
-    height: 300px;
-    width: 525px
+    width: 75%;
+    height: auto;
+
 }
 
-div {
-    flex-grow: 1;
-    flex-basis: 0;
+.blog-post {
     background: #d6d6d6;
+    background-size: 120%;
     border-radius: 20px;
     margin-top: 25px;
     padding: 25px;
-    margin-right: 500px;
+    margin-right: 5%;
+    
 }
 
 label {
+    margin-top: 10px;
     display: block;
     margin-bottom: 10px;
 }
 
+
 label,
 textarea {
-font-size: 0.8rem;
+font-size: 18px;
 letter-spacing: 1px;
-  }
+}
   
 textarea {
 padding: 10px;
