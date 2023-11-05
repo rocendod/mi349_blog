@@ -1,10 +1,13 @@
 /* Add screen styles below */
 p {
-    font-size: 18px;
-    text-indent: 30px;
+  font-family: Helvetica Neue,Helvetica,Arial,system-ui,-apple-system,sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  text-indent: 30px;
 }
 
 .intro {
+  font-family: Helvetica Neue,Helvetica,Arial,system-ui,-apple-system,sans-serif;
   font-size: 20px;
   margin-left: 20px;
   margin-right: 30%;
@@ -12,10 +15,10 @@ p {
 }
 
 nav {
+  font-family: Helvetica Neue,Helvetica,Arial,system-ui,-apple-system,sans-serif;
   font-size: 1.5rem;
   padding-top: 0px;
   margin: 0 auto;
-  margin-inline: #ababab;
 }
 
 ul {
@@ -23,22 +26,37 @@ ul {
   flex-direction: row;
 }
 
-a {
+.navtitle {
+  font-family: Helvetica Neue,Helvetica,Arial,system-ui,-apple-system,sans-serif;
   font-size: 22px;
   width: 80px;
 }
 
 h1 {
+  font-family: Helvetica Neue,Helvetica,Arial,system-ui,-apple-system,sans-serif;
   margin-bottom: 0%;
 }
 
+h1,
+nav {
+  display: inline-block;
+}
+
 h2 {
-    margin-top: 10px;
+  font-family: Helvetica Neue,Helvetica,Arial,system-ui,-apple-system,sans-serif;
+  margin-top: 15px;
+}
+
+h3 {
+  font-family: Helvetica Neue,Helvetica,Arial,system-ui,-apple-system,sans-serif;
+  font-size: 22px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 img {
-    width: 75%;
-    height: auto;
+    width: 65%;
+    height: 485px;
 
 }
 
@@ -46,41 +64,53 @@ img {
     background: #d6d6d6;
     background-size: 120%;
     border-radius: 20px;
-    margin-top: 25px;
+    margin-top: 20px;
     padding: 25px;
-    margin-right: 5%;
+    margin-right: 10%;
     
 }
 
 label {
-    margin-top: 10px;
-    display: block;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  display: block;
+  margin-bottom: 10px;
 }
-
 
 label,
 textarea {
-font-size: 18px;
-letter-spacing: 1px;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
   
 textarea {
-padding: 10px;
-max-width: 100%;
-line-height: 1.5;
-border-radius: 5px;
-border: 1px solid #ccc;
-box-shadow: 1px 1px 1px #999;
+  padding: 10px;
+  max-width: 100%;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
   }
   
 label {
-display: block;
-margin-bottom: 10px;
+  display: block;
+  margin-bottom: 10px;
 }
 
 table,
 td {
   border: 1px solid #333;
 }
-  
+
+.forum {
+  font-family: Helvetica Neue,Helvetica,Arial,system-ui,-apple-system,sans-serif;
+  background: #d6d6d6;
+  background-size: 120%;
+  border-radius: 20px;
+  margin-top: 25px;
+  padding: 25px;
+  margin-right: 55%;
+}
+
+a {
+  font-size: 18px;
+}
